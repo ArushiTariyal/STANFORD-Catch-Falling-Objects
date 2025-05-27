@@ -33,7 +33,7 @@ player_speed = 10
 # Apple setup (single apple)
 apple = pygame.Rect(random.randint(0, WIDTH - 40), 0, 40, 40)
 fall_speed = 5
-speed_increase_rate = 0.001
+speed_increase_rate = 0.1
 
 score = 0
 misses = 0
